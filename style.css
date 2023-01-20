@@ -1,0 +1,23 @@
+*{
+    color: #F1F1F1;
+    font-family: Verdana;
+    text-align:center;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top: 1em;
+}
+html{
+    background-color: #1F1F1F;
+
+}
+section{
+    margin-left: -3%;
+}
+li{
+    list-style:none;
+    margin-top: 1em;
+}
+li:hover > a{
+    color: #ffa62a;
+    font-size: 1.3em;
+ }

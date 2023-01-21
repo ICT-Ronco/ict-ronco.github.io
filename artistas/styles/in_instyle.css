@@ -1,0 +1,45 @@
+a{
+  text-decoration: none;
+}
+*{
+
+}
+body{
+    text-align: center;
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+html{
+  margin: 0;
+  padding: 0;
+    font-family: verdana;
+    color: #F1F1F1;
+    overflow-x: hidden;
+    background-color: #1F1F1F;
+    height: 200em;
+}
+nav{
+  text-decoration: none;
+  width: 98%;
+  margin: 0 auto;
+  background-color: black;
+}
+nav li:hover{
+  background-color: #1F1F1F;
+}
+aside{
+  position: fixed;
+  margin:0 0.7%;
+  height: 40em;
+  background-color: purple;
+  width: 30%;
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

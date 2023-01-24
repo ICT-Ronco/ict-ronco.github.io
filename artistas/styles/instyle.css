@@ -1,19 +1,20 @@
 html{
     font-family: Verdana;
     color: #F1F1F1;
-    background-color: #1F1F1F;
+    background-color: black;
 }
 nav{
     margin:7em auto;
-    width: 70%;
+    width: 76%;
     height: 15em;
     background-color:black;
 }
 nav div{
 float: left;
     height: 100%;
-    width: 25%;
-    background-color: black;
+    width: 22%;
+    margin-right: 3%;
+    background-color: #1F1F1F;
 }
 nav div h3{
     display: block;

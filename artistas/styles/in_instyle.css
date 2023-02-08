@@ -34,6 +34,28 @@ aside{
   width: 30%;
 }
 
+#info,#temas,#redes{
+  min-height: 45em;
+  border: #F1F1F1 3px solid;
+}
+#panel{
+  width: 25%;
+  margin-left: 37%;
+  background-color: #F1F1F1;
+  height: 5em;
+  display: block;
+  position: fixed;
+}
+#panel div{
+  background-color: green;
+  height: 3em;
+  width: 3em;
+  margin-left: 5%;
+  display: inline-block;
+}
+#info:hover  #infologo{
+  background-color: red;
+}
 
 @keyframes slideInFromLeft {
   0% {

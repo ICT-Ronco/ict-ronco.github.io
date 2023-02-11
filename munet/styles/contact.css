@@ -1,0 +1,32 @@
+body{
+    overflow: hidden;
+}
+section{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+form{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 1em;
+    text-align: left;
+}
+fieldset{
+    padding: 1.3em;
+}
+.frf::after {
+    font-size: 0.7em;
+    vertical-align: top;
+    content:"🔴";
+}
+.nombre{
+    margin-right:2%;
+}
+label{
+    margin: 0.4em 0.3em;
+    display: inline-block;
+}
+.send{
+    margin-left: 4em;
+}

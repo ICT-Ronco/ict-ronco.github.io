@@ -1,0 +1,75 @@
+html{
+    overflow: hidden;
+    font-family: Verdana;
+    color: #F1F1F1;
+    background-color: black;
+}
+nav{
+margin-top: 2em;
+margin-left: 10%;
+    width: 81%;
+    height: 25em;
+    background-color:black;
+}
+nav div{
+float: left;
+    height: 100%;
+    width: 24%;
+    margin-right: 1%;
+    background-color: #1F1F1F;
+}
+nav div h3{
+    display: block;
+    clear: both;
+    text-align: center;
+    margin-left: 3%;
+}
+.divimg{
+    margin:5% 10% 1% 10%;
+    width: 80%;
+    height: 80%;
+    display: block;
+}
+
+nav:hover .divimg{
+    background-color: #1F1F1F;
+}
+#a1:hover .divimg,#a2:hover .divimg,#a3:hover .divimg,#a4:hover .divimg{
+    background-color: yellow;
+}
+#a1:hover{
+    color: #1F1F1F;
+    background-color: lightblue;
+}
+#a2:hover{
+    color: #1F1F1F;
+    background-color: lightgreen;
+}
+#a3:hover{
+    color: #1F1F1F;
+    background-color: lightsalmon;
+}
+#a4:hover{
+    color: #1F1F1F;
+    background-color: lightpink;
+}
+  @media (max-width: 1000px) {
+
+    nav{
+        margin:7em auto;
+        width: 90%;
+        height: 12em;
+        background-color:black;
+    }
+    nav div h3{
+        font-size: small;
+    }
+    .divimg{
+        margin:5% 10% 3% 10%;
+        width: 80%;
+        height: 70%;
+        display: block;
+    }
+    
+  }
+  

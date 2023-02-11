@@ -1,0 +1,124 @@
+html {
+    overflow: hidden;
+    image-rendering:optimizeSpeed;
+    font-family: Verdana;
+    color: #F1F1F1;
+    background-color: black;
+}
+body{
+    margin-top: 3em;
+}
+header {
+    margin-left: 10%;
+    padding-bottom: 1em;
+    width: 80%;
+    background-color: #F1F1F1;
+    animation: 0.6s ease-out 0s 1 slideInFromLeft;
+    color: #1F1F1F;
+    margin-top: 1em;
+    text-align: center;
+    overflow: hidden;
+}
+#bull{
+    color: red;
+    cursor: pointer;
+}
+#munet {
+    font-weight: bold;
+    font-size: 4.4em;
+    text-transform: uppercase;
+}
+
+#YLMN {
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+nav {
+    margin: 0 auto;
+    width: 80%;
+    height: 26em;
+    background-color: black;
+    animation: 0.6s ease-out 0s 1 slideInFromRight;
+    overflow: hidden;
+}
+
+nav div {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    height: 100%;
+    width: 24%;
+    margin:0 0.5%;
+    background-color: #1F1F1F;
+}
+nav div img {
+    filter:saturate(10%);
+    height: 100%;
+    display: block;
+}
+nav div img:hover {
+    filter:saturate(100%);
+}
+#contimg{
+    position: relative;
+    z-index:15;
+}
+#who,#artists,#munews,#contact{
+    font-size: larger;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0.4em;
+    background-color: black;
+}
+
+
+#a1:hover .divimg,
+#a2:hover .divimg,
+#a3:hover .divimg,
+#a4:hover .divimg {
+    background-color: yellow;
+}
+
+#a1:hover {
+    color: #1F1F1F;
+    background-color: lightblue;
+}
+
+#a2:hover {
+    color: #1F1F1F;
+    background-color: lightgreen;
+}
+
+#a3:hover {
+    color: #1F1F1F;
+    background-color: lightsalmon;
+}
+
+#a4:hover {
+    color: #1F1F1F;
+    background-color: lightpink;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}

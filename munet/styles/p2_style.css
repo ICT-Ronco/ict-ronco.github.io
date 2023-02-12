@@ -1,0 +1,39 @@
+
+#myVideo {
+    position:absolute;
+height: 100%;
+width: 80%;
+margin: 0 10%;
+  }
+header{
+   position: absolute;
+  }
+section{
+    position: absolute;
+    display: block;
+    margin: 10% 10%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width:80%;
+    height: 40%;
+    padding-bottom: 20em;
+  }
+  .sif{
+    display: inline-block;
+    border: none;
+    width: 25em;
+  }
+  section p{
+    display: block;
+    font-size: 1.15em;
+    width: 90%;
+  }
+section h1{
+  margin-left: 8.6%;
+}
+#rcyimg{
+  float: left;
+height: 24em;
+padding-bottom: 8em;
+margin: 0 1.3em;
+  }

@@ -73,6 +73,9 @@ nav div img:hover {
     padding: 0.4em;
     background-color: black;
 }
+.RSimg{
+    margin: 0 auto;
+}
 
 @keyframes slideInFromLeft {
     0% {

@@ -74,35 +74,6 @@ nav div img:hover {
     background-color: black;
 }
 
-
-#a1:hover .divimg,
-#a2:hover .divimg,
-#a3:hover .divimg,
-#a4:hover .divimg {
-    background-color: yellow;
-}
-
-#a1:hover {
-    color: #1F1F1F;
-    background-color: lightblue;
-}
-
-#a2:hover {
-    color: #1F1F1F;
-    background-color: lightgreen;
-}
-
-#a3:hover {
-    color: #1F1F1F;
-    background-color: lightsalmon;
-}
-
-#a4:hover {
-    color: #1F1F1F;
-    background-color: lightpink;
-}
-
-
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(100%);

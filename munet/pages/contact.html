@@ -18,15 +18,14 @@
             <span>Envíanos tus datos para que empecemos a hacerte recomendaciones</span>
             <br>
             <span>Los campos marcados con el símbolo "🔴" son campos obligatorios</span>
-            <form action="send">
+            <form action="../index.html">
                 <fieldset>
-
                     <label class="nombre"><span class="frf">Nombre</span><br><input type="text" name="Nombre" required > </label>
 
                     <label><span class="frf" >Apellidos</span><br><input type="text" name="Apellidos" required > </label>
-                    <label><span>Apodo</span><br><input type="text" name="Apellidos" required > </label>
+                    <label><span>Apodo</span><br><input type="text" name="Apodo" > </label>
                     <label><span class="frf">Email</span><br><input type="email" name="email" required> </label>
-                    <label><span class="frf">Código&nbsp;postal</span><br><input type="text" maxlength="5" pattern="[0-9]{1-9}" placeholder="XXXXX" required></label>
+                    <label><span class="frf">Código&nbsp;postal</span><br><input type="text" maxlength="5" pattern="[0-9]{5}" placeholder="XXXXX" required></label>
                     <span class="send"><input type="submit" name="Env" id="Send" value="Estoy listo"></span>
                 </fieldset>
         </form>

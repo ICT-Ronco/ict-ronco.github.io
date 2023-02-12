@@ -6,7 +6,7 @@
 }
 body{
     text-align: center;
-
+    overflow: hidden;
 }
 .qs{
     margin:1em 0 5em 0;

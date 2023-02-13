@@ -16,3 +16,11 @@ section{
     width: 80%;
     margin: 2.6em auto;
 }
+@media (max-width: 900px){
+    #inmunetimg,#wbmimg{
+        display: none;
+    }
+ #infospan{ 
+    display: none;
+ }
+   }

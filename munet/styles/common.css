@@ -46,3 +46,13 @@ header a, header a:visited{
         transform: translateY(0%);
     }
 }
+@media (max-width: 900px){
+ body{
+    margin-top: 1em;
+ }
+header{
+    width: 90%;
+    margin:auto;
+}
+
+}

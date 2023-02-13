@@ -100,14 +100,18 @@ nav div img:hover {
     html{
         overflow-y: scroll;
     }
+    header{
+        margin: auto;
+        width: 90%;
+    }
     nav{
-        width: 60%;
+        width: 80%;
         height: unset;
     }
 nav div{
     margin: 2em auto;
     display: block;
-    height: 25em;
+    height: 20em;
     width: 100%;
     display: block;
 }

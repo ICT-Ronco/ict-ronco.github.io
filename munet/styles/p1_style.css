@@ -59,3 +59,28 @@ margin: 0 1.3em;
   width: 25em;
 }
   }
+  @media (max-width: 750px){
+    header{
+      margin:0 2.5%;
+    }
+    #phqimg{
+      display: block;
+      margin:1em 20%;
+     }
+     section{
+      width: 90%;
+      text-align: justify;
+      margin: 35% 2.5%;
+      font-size: 0.55em;
+    }
+    .sif{
+      display: block;
+      border: none;
+      width: 80%;
+  }
+  #myVideo {
+display: none;
+height: 100%;
+width: 80%;
+}
+  }

@@ -62,3 +62,27 @@ margin: 0 1.3em;
   width: 25em;
 }
   }
+  @media (max-width: 750px){
+    header{
+      margin:0 2.8%;
+    }
+    #rcyimg{
+      display: block;
+      margin:0.3em 25% 0 25% ;
+     }
+     section{
+      width: 90%;
+      text-align: justify;
+      margin: 38% 2.5%;
+      font-size: 0.55em;
+    }
+    .sif{
+      display: block;
+      border: none;
+      margin: 0 auto;
+      width: 90%;
+  }
+  #myVideo {
+display: none;
+}
+  }

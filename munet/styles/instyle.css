@@ -96,3 +96,23 @@ nav div img:hover {
         transform: translateX(0%);
     }
 }
+@media (max-width: 900px){
+    html{
+        overflow: scroll;
+    }
+    nav{
+        width: 60%;
+        height: unset;
+    }
+nav div{
+    margin: 2em auto;
+    display: block;
+    height: 25em;
+    width: 100%;
+    display: block;
+}
+nav div img{
+    height: auto;
+width: 125%;
+}
+}

@@ -37,3 +37,28 @@ height: 24em;
 padding-bottom: 8em;
 margin: 0 1.3em;
   }
+  @media (max-width: 900px){
+    html{
+        overflow: scroll;
+    }
+  section{
+    margin: 22% 10%;
+    font-size: 0.7em;
+  }
+ #phqimg{
+  height: 28em;
+ }
+ section p{
+  display: block;
+  width: 100%;
+}
+#temas{
+  float: left;
+}
+.sif{
+  display: inline-block;
+  border: none;
+  margin-left: 1em;
+  width: 25em;
+}
+  }

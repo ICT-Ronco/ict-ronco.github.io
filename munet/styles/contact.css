@@ -30,3 +30,8 @@ label{
 .send{
     margin-left: 4em;
 }
+@media (max-width: 900px){
+ form{
+    width: 80%;
+ }
+}

@@ -53,23 +53,17 @@ nav:hover .divimg{
     color: #1F1F1F;
     background-color: lightpink;
 }
-  @media (max-width: 1000px) {
-
+@media (max-width: 900px){
+    html{
+        overflow: scroll;
+    }
     nav{
-        margin:7em auto;
-        width: 90%;
-        height: 12em;
-        background-color:black;
-    }
-    nav div h3{
-        font-size: small;
-    }
-    .divimg{
-        margin:5% 10% 3% 10%;
         width: 80%;
-        height: 70%;
+        height: auto;
+    }
+    nav div{
+        margin: 2em auto;
+        width: 100%;
         display: block;
     }
-    
-  }
-  
+}

@@ -55,7 +55,7 @@ nav:hover .divimg{
 }
 @media (max-width: 900px){
     html{
-        overflow: scroll;
+        overflow-y: scroll;
     }
     nav{
         width: 80%;

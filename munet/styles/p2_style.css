@@ -39,7 +39,7 @@ margin: 0 1.3em;
   }
   @media (max-width: 900px){
     html{
-        overflow: scroll;
+      overflow-y: scroll;
     }
   section{
     margin: 22% 10%;

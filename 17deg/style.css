@@ -1,4 +1,4 @@
-body,htmls{
+body,html{
     max-width: 100%;
     background-color: #1F1F1F;
 }
@@ -51,7 +51,7 @@ padding: 5% 32%;
 }
 @media (width<700px){
     svg{
-        max-width: 80%;}
+        width: 40%;}
            
 }
 @media (width<1000px){

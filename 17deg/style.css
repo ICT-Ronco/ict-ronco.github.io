@@ -49,7 +49,7 @@ padding: 5% 32%;
         display: none;
     }
 }
-@media (width<400px){
+@media (width<700px){
     svg{
         padding: 15% 1%;}
            

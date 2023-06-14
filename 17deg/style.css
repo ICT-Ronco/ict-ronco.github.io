@@ -1,0 +1,94 @@
+html{
+    overflow-x: hidden;
+    font-family: 'Monomaniac One', verdana, sans-serif;
+}
+body{
+    background-color: #1F1F1F;
+}
+.DSGW{
+font-size: 2.1em;
+}
+nav{
+    margin-top: 5%;
+    height: 5em;
+    color: #F1F1F1;
+    padding: 0.4em;
+
+}
+nav *{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+section{
+    border-radius: 15px;
+    width: 80%;
+    margin: 12% auto;
+    background-color: #1F1F1F;
+    border: #00B53F solid 0.3em;
+    min-height: 12em;
+}
+svg{
+    background-color: #1F1F1F;
+    position: absolute;
+    padding-left: 37.5%;
+    padding-bottom: 100%;
+    height: 48em;
+    animation: animate 2.8s linear forwards;
+    animation-delay: 0.1s;
+}
+.poly{
+    stroke: #F1F1F1;
+    background-color: transparent;
+    fill:none;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: animate 2.8s linear forwards;
+    animation-delay: 0.2s;
+}
+.deg{
+    stroke: #F1F1F1;
+    background-color: transparent;
+    fill:none;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: animate 2.8s linear forwards;
+    animation-delay: 0.1s;
+}
+@keyframes animate{
+   
+   0%{
+        stroke-dasharray: 700;
+        stroke-dashoffset: 700;
+    }    
+    60%{
+        opacity: 100%;
+        stroke-dasharray: 700;
+        stroke-dashoffset: 10;
+    }
+    99%{
+        opacity: 10%;
+
+    }   
+    100%{
+        opacity: 10%;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+@media (width< 1200px) {
+    svg{
+        padding-left: 24%;
+        height: 48em;
+    }
+}
+@media (width< 700px) {
+
+     svg{
+        padding-left: 0;
+       margin-left: 0;
+        height: 65%;
+    }
+}

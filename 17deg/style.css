@@ -3,8 +3,8 @@ body,html{
     background-color: #1F1F1F;
 }
 svg{
-    height: 60%;
-padding: 5% 32%;
+    height: 40%;
+padding: 10% 38%;
     background-color: #1F1F1F;
     position: absolute;
     animation: animate 2.8s linear forwards;
@@ -51,13 +51,13 @@ padding: 5% 32%;
 }
 @media (width<700px){
     svg{
-        width: 40%;}
+        width: 50%;}
            
 }
 @media (width<1400px){
     svg{
         height: 32%;
-        padding: 15% 0 0 25%;}
+        padding: 20% 0 0 33%;}
 
            
 }

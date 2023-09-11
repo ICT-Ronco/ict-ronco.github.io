@@ -1,0 +1,20 @@
+td,tr{
+    border: 0.1em solid #1F1F1F;
+    border-collapse: collapse;
+    height: 5em;
+    min-width: 1.2em;
+    max-width: 1.6em;
+    border-collapse: collapse;
+    text-align:center;
+}
+table{
+    border: 0.2em solid #1F1F1F;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+th{
+    text-transform: uppercase;
+    text-align:center;
+}

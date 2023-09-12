@@ -3,3 +3,29 @@ background-color: #1F1F1F;
 font-family: verdana;
 color: #F1F1F1;
 }
+
+
+#anim{
+    padding-bottom: 20em;
+    position: relative;
+    height:320px;
+}
+.contorno{
+
+    fill:none;
+    stroke:#F1F1F1;
+    stroke-dasharray: 3200;
+    stroke-dashoffset: 3200;
+    animation: animate linear infinite 5s;
+}
+.rect{
+
+    fill:none;
+    stroke:#F1F1F1;
+}
+@keyframes animate{
+
+    to{
+        stroke-dashoffset: 0;
+    }
+}

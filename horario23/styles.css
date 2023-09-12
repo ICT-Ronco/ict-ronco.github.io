@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif ;
+}
+
 td,tr{
     border: 0.1em solid #1F1F1F;
     border-collapse: collapse;
@@ -9,11 +13,29 @@ td,tr{
 table{
     border: 0.2em solid #1F1F1F;
     border-collapse: collapse;
-    width: 86%;
+    width: 89%;
     margin: 5em auto;
     border-collapse: collapse;
 }
 th{
     text-transform: uppercase;
     text-align:center;
+}
+.aso{
+    background-color: #DBFF11;
+}
+.sri{
+    background-color: #008cff;
+}
+.sad{
+    background-color: coral;
+}
+.iaw{
+    background-color: seagreen;
+}
+.bd{
+    background-color: royalblue;
+}
+.eng{
+    background-color: #fffb11;
 }

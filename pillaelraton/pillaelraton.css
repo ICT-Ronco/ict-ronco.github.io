@@ -17,8 +17,6 @@ body{
     float: right;
 }
 #gameinfo{
-    border-radius: 1em;
-    border: 0.4em solid #F1F1F1;
     height: 15em;
     width: 25em;
     float: left;
@@ -26,17 +24,37 @@ body{
     display: block;
 }
 #gameinfo>p{
-    margin-left: 5%;
+    padding: 0.3em;
+    margin: 0.5em auto;
+    width: 90%;
+}
+#nivel{
+    
+    border-radius: 0.5em;
+    border: 0.4em solid #F1F1F1;
 }
 #veces{
     font-size: 3em;
     margin-left: 0.5em;
 }
 #mouse{
+    animation: rotation 1s infinite linear;
     border-radius: 0.5em;
     height: 3em;
     width: 3em;
 }
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    79% {
+        transform: rotate(0deg);
+      }
+    80% {
+      transform: rotate(-120deg);
+    }
+  }
+  
 #mouse img{
     height: 100%;
     pointer-events: none;
@@ -88,5 +106,11 @@ body{
         width: 94%;
         margin: 0 auto;
 
+    }
+    #nivel{
+        border-radius: 0.5em;
+        border: 0.4em solid #F1F1F1;
+    }
+    #crono,#marcador{text-align: center;
     }   
     }

@@ -6,14 +6,14 @@ function game() {
     var lvl = 0
     var i = 0
     document.getElementById("gameinfo").style="display:block"
-    document.getElementById("nivel").innerHTML = "Nivel: " + (lvl + 1) + "<br><br> P.Mínima: " + min[lvl]
-    document.getElementById("crono").innerHTML = "Tiempo:" + diff + ""
+    document.getElementById("nivel").innerHTML = "Nivel: " + (lvl + 1) + "<br><br> Objetivo: " + min[lvl]
+    document.getElementById("crono").innerHTML = "Tiempo: " + diff + ""
     document.getElementById("start").style = "display:none;"
     document.getElementById("end").style = "display:inline-bloc;"
     document.getElementById("gamebox").innerHTML = "<div id='mouse'style=margin:50% 50%;'><img src='img/mouse.png'></img></div>"
     function crono() {
         diff++
-        document.getElementById("crono").innerHTML = "Tiempo:" + diff + ""
+        document.getElementById("crono").innerHTML = "Tiempo: " + diff + ""
     }
 
     function move() {    
@@ -22,11 +22,6 @@ function game() {
 
 
     function winning() {
-        // if(diff==10&i<5) {
-        //     alert("no has superado el nivel 1")
-        //     location.reload()
-        // }
-        console.log(l[lvl])
         if (diff == l[lvl] && i < min[lvl]) {
             alert("No has superado el nivel " + (lvl+1))
             location.reload()
@@ -65,5 +60,5 @@ function game() {
 
 
 }
-document.write("<div id='gamebox'></div><div id='gameinfo' style='display:none;'><p id='crono'></p><p id='nivel'></p><p id='marcador'>Pulsa en el ratón <br><br><span id='veces'>:(</span></p></div>")
+document.write("<div id='gameinfo' style='display:none;'><p id='crono'></p><p id='nivel'></p><p id='marcador'>Pulsa en el ratón <br><br><span id='veces'>:(</span></p></div><div id='gamebox'></div>")
 document.write("<button id='start' onclick=(game())>Empezar juego</button><button id='end' onclick=(location.reload()) style=display:none>Terminar juego</button>")

@@ -17,7 +17,7 @@ function game() {
     }
 
     function move() {    
-    document.getElementById("mouse").style.margin=(Math.floor(Math.random(0-8)*96))+"%"+" "+(Math.floor(Math.random(0-8)*96))+"%"      
+    document.getElementById("mouse").style.margin=(Math.floor(Math.random(0-8)*90))+"%"+" "+(Math.floor(Math.random(0-8)*96))+"%"      
 }      
 
 

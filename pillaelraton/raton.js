@@ -42,10 +42,10 @@ function game() {
 
     }
     
-    setInterval(move, 900);
+    setInterval(move, 1400);
     setInterval(crono, 1000);
     setInterval(winning, 1000);
-    document.getElementById("mouse").onmouseover = function sumar() {
+    document.getElementById("mouse").onclick = function sumar() {
         if (i < 1) {
             i++
             document.getElementById("marcador").innerHTML = "Has pillado al ratón <br><br><span id='veces'> " + i + " </span>vez"

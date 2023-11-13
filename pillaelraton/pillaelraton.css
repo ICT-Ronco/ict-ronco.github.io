@@ -38,6 +38,7 @@ body{
     margin-left: 0.5em;
 }
 #mouse{
+    cursor: url('./img/cursor.cur'), pointer;
     animation: rotation 1s infinite linear;
     border-radius: 0.5em;
     height: 3em;

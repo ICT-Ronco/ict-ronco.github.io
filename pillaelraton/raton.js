@@ -17,7 +17,7 @@ function game() {
     }
 
     function move() {    
-    document.getElementById("mouse").style.margin=(Math.floor(Math.random(0-8)*100))+"%"+" "+(Math.floor(Math.random(0-8)*100))+"%"      
+    document.getElementById("mouse").style.margin=(Math.floor(Math.random(0-8)*96))+"%"+" "+(Math.floor(Math.random(0-8)*96))+"%"      
 }      
 
 
@@ -45,7 +45,7 @@ function game() {
     setInterval(move, 900);
     setInterval(crono, 1000);
     setInterval(winning, 1000);
-    document.getElementById("mouse").onclick = function sumar() {
+    document.getElementById("mouse").onmouseover = function sumar() {
         if (i < 1) {
             i++
             document.getElementById("marcador").innerHTML = "Has pillado al ratón <br><br><span id='veces'> " + i + " </span>vez"
